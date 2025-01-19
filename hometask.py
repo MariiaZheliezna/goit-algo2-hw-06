@@ -49,7 +49,7 @@ def visualize_top_words(word_counts, top_n=10):
 
 if __name__ == "__main__":
     # Отримання тексту за URL
-    url = "https://www.gutenberg.org/files/11/11-0.txt?form=MG0AV3"  # Замість цього URL вкажіть реальний URL з текстовими даними
+    url = "https://www.gutenberg.org/files/11/11-0.txt?form=MG0AV3"
     response = requests.get(url)
     text = response.text
 
